@@ -1,10 +1,9 @@
 body{
-    background-color: beige;
+    background-image:url("blur-background-og.webp");
     animation-name: slidein;
     animation-duration: 2s;
     animation-iteration-count: 1;
     animation-direction: alternate;
-    
 }
 hr{
     border-style: none;
@@ -44,4 +43,8 @@ h3{
         
         margin-left: 0%;
     }
+}
+.chessbutton{
+    background-color: darkseagreen;
+    border-radius: 10%;
 }
