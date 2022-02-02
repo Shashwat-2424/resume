@@ -1,6 +1,10 @@
-
 body{
     background-color: beige;
+    animation-name: slidein;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    
 }
 hr{
     border-style: none;
@@ -9,15 +13,35 @@ hr{
     border-width: 5px;
     width: 95%;
 }
-h1{
+
+.heading{
     color: rgb(88, 86, 72);
-    
+    animation-name: slidein;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
 }
 h2{
     color: rgb(88, 86, 72);
     background-color: rgb(194, 192, 74);
+    animation-name: slidein;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
 }
 h3{
     color: rgb(88, 86, 72);
     background-color: rgb(194, 192, 74);
+    animation-name: slidein;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+@keyframes slidein {
+    from{
+        margin-left: 50%;
+    }to{
+        
+        margin-left: 0%;
+    }
 }
