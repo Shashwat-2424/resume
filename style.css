@@ -1,0 +1,23 @@
+
+body{
+    background-color: beige;
+}
+hr{
+    border-style: none;
+    border-top-style: dashed;
+    border-color: rgb(109, 103, 68);
+    border-width: 5px;
+    width: 95%;
+}
+h1{
+    color: rgb(88, 86, 72);
+    
+}
+h2{
+    color: rgb(88, 86, 72);
+    background-color: rgb(194, 192, 74);
+}
+h3{
+    color: rgb(88, 86, 72);
+    background-color: rgb(194, 192, 74);
+}
